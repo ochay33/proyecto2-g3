@@ -6,10 +6,10 @@ body{
   background-color: #F5F5F5;
 }
 header{
+  display: block;
   text-align: center;
-  align-items: center;
   background-color:  #FFFD7E;
-  height: 13rem;
+  height: 10rem;
 }
 .container {
 	max-width: 500px;
@@ -44,7 +44,7 @@ input[type="password"] {
   border: 2px solid #000;
 }
 
-input[type="submit"] {
+button {
 	background-color: #ED8811;
 	color: #ffffff;
 	border: none;
@@ -53,12 +53,21 @@ input[type="submit"] {
 	cursor: pointer;
 }
 
-input[type="submit"]:hover {
+button:hover {
 	background-color: #8f510a;
 }
 
 p{
   text-align: center;
+}
+a{
+  text-decoration: none;
+  color: #ED8811;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #8f510a;
 }
 footer{
   display: flex;
@@ -73,7 +82,6 @@ footer{
   padding-right: 15px;
   opacity: 0.8;
 }
-
 
 /* Estilos para medidas mayores a 1023px */
 @media (max-width: 1023px) {
@@ -98,7 +106,7 @@ footer{
     }
   }
   
-  /* Estilos para medidas mayores a 768px y menores o iguales a 1023px */
+  
   @media (max-width: 768px) {
     header {
       display: flex;
