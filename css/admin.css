@@ -29,12 +29,12 @@ tbody{
     border-style: solid;
     border-color: black;
 }
-button{
+.primerboton {
     margin-left: 45%;
 }
 table{
     text-align: center;
-    margin-left: 35%;
+    margin-left: 25%;
 }
 input{
     display: flex;
